@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f33455cb5dd57dd40ac20b3d2c45593e, type: 3}
+  m_Name: CheckPoint
+  m_EditorClassIdentifier: 
+  Phrases:
+  - {fileID: 11400000, guid: db6abb0646444654d9eac58b7866ff90, type: 2}
+  - {fileID: 11400000, guid: c8fe4b9ab46ceea47a07e4113499b592, type: 2}
+  - {fileID: 11400000, guid: bcbe6574094e86f4ca4e5795d3342b50, type: 2}
+  - {fileID: 11400000, guid: 17af643b54c343c4f9c7508d68f8d542, type: 2}
+  - {fileID: 11400000, guid: 44d146d1469684941bf38cd227222228, type: 2}
+  - {fileID: 11400000, guid: 58e068c70c5175b46921543c5f64b9d5, type: 2}
+  - {fileID: 11400000, guid: 30e0657db223fac46826adc5f1d60cfc, type: 2}
+  - {fileID: 11400000, guid: 94d7accbde6c0c1409f63094c680e36b, type: 2}
+  - {fileID: 11400000, guid: 573ef57c92ed9b7418e45322c6445ca5, type: 2}
+  - {fileID: 11400000, guid: 79c6130ce9f67eb49a550bbebf85530d, type: 2}
+  - {fileID: 11400000, guid: 67a3625a984d55341949dd078ca6448e, type: 2}
+  - {fileID: 11400000, guid: 46fc57025ceea3a49b29b7b7c19a8614, type: 2}
+  - {fileID: 11400000, guid: 81a447189b5eff743a74987ffa2a5c38, type: 2}
+  - {fileID: 11400000, guid: 578ebe54f467816429023b2cc78177da, type: 2}
+  - {fileID: 11400000, guid: a4a24d4120f64c44e80017f7cddc1200, type: 2}
