@@ -23,15 +23,18 @@ public class CheckpointStack
       }
       points[++top] = point;
    }
-   private bool IsEmpty()
+   public bool IsEmpty()
    {
       return top == -1;
    }
    public CheckPoint Pop()
    {
-      if (!IsEmpty()) return points[--top];
+      // if (top == 0)
+      // {
+      //    return points[top];
+      // }
+      return !IsEmpty() ? points[top--] : null;
       Debug.Log("Stack is empty");
-      return null;
    }
 
    public CheckPoint Peek()

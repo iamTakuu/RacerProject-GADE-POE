@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: P4
   m_EditorClassIdentifier: 
   Character: {fileID: 11400000, guid: ada1c74ef62624d4091192bfa54d3999, type: 2}
-  Sentence: I'm currently testing out this game, and I obviously need a test dumm-
+  Sentence: This simulation is a WIP and we need a test dumm-

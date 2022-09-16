@@ -36,15 +36,23 @@ public class CarController : MonoBehaviour
     private void OnEnable()
     {
         EventsManager.Instance.ActivateCar += Activate;
+        EventsManager.Instance.DeactivateCar += Deactivate;
+
     }
     private void OnDisable()
     {
         EventsManager.Instance.ActivateCar -= Activate;
+        EventsManager.Instance.DeactivateCar -= Deactivate;
+
     }
 
     private void Update()
     {
-        if (!carActive) return;
+        if (!carActive)
+        {
+            transform.position = carSphereRb.transform.position;
+            return;
+        }
         InputHandler();
         //Keeps the car object to the sphere
         transform.position = carSphereRb.transform.position;
@@ -56,6 +64,11 @@ public class CarController : MonoBehaviour
     private void Activate()
     {
         carActive = true;
+    }
+    private void Deactivate()
+    {
+        //transform.position = carSphereRb.transform.position;
+        carActive = false;
     }
     private void TurnHandler()
     {
@@ -96,7 +109,7 @@ public class CarController : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (isGrounded)
+        if (isGrounded && carActive)
         {
             //move the car sphere
             carSphereRb.AddForce(transform.forward * currentSpeed, ForceMode.Acceleration);

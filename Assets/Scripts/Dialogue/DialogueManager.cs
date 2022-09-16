@@ -14,26 +14,20 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private Image portraitSprite;
     [SerializeField] private GameObject dialoguePanel;
-    //[SerializeField] private Button nextButton;
-
+   
     private bool nextInput;
-    //private bool nextInput;
-
-    private void Awake()
+   private void Awake()
     {
         GrabDialogue(_sequence);
     }
-
-    private void OnEnable()
+   private void OnEnable()
     {
-        EventsManager.Instance.ActivateCar += EndDialogue;
+        EventsManager.Instance.StartGame += EndDialogue;
     }
-
     private void OnDisable()
     {
-        EventsManager.Instance.ActivateCar -= EndDialogue;
+        EventsManager.Instance.StartGame -= EndDialogue;
     }
-
     private void GrabDialogue(DialogueSequence sequence)
     {
         _queue = new DialogueQueue(sequence);
@@ -55,7 +49,7 @@ public class DialogueManager : MonoBehaviour
             portraitSprite.sprite = dia.Character.Portrait;
             yield return StartCoroutine(WaitForButtonPress());
         }
-        EventsManager.Instance.OnActivateCar();
+        EventsManager.Instance.OnGameStart();
     }
     private IEnumerator WaitForButtonPress()
     {
@@ -66,13 +60,11 @@ public class DialogueManager : MonoBehaviour
         nextInput = false;
         yield return new WaitForFixedUpdate();
     }
-
     public void NextDialogue()
     {
         nextInput = true;
     }
-
-    public void EndDialogue()
+    private void EndDialogue()
     {
         dialoguePanel.SetActive(false);
     }

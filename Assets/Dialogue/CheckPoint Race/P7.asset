@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: P7
   m_EditorClassIdentifier: 
   Character: {fileID: 11400000, guid: ada1c74ef62624d4091192bfa54d3999, type: 2}
-  Sentence: Okay, so it's quite simple. You see those cubes scattered around?
+  Sentence: Okay, it's quite simple. You see those cubes scattered around?

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: P13
   m_EditorClassIdentifier: 
   Character: {fileID: 11400000, guid: ada1c74ef62624d4091192bfa54d3999, type: 2}
-  Sentence: Ok the game has compiled, you can get goin.
+  Sentence: Ok! We're all set! You can get goin.
