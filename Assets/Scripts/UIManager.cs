@@ -18,9 +18,6 @@ public class UIManager : MonoBehaviour
     private Vector3 bonusOgVector3;
     private bool timerActive;
     
-
-    
-
     private void Update()
     {
         if (timerActive && _manager.timerOn)

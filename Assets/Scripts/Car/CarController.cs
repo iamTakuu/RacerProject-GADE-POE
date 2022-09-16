@@ -2,7 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// This is a modified version of 'SpawnCampGames' car contoller.
+/// You can find that here: https://www.youtube.com/watch?v=TBIYSksI10k; https://github.com/SpawnCampGames/ArcadeCarController
+/// </summary>
 public class CarController : MonoBehaviour
 {
     [Header("Rigid Body")]

@@ -29,12 +29,7 @@ public class CheckpointStack
    }
    public CheckPoint Pop()
    {
-      // if (top == 0)
-      // {
-      //    return points[top];
-      // }
       return !IsEmpty() ? points[top--] : null;
-      Debug.Log("Stack is empty");
    }
 
    public CheckPoint Peek()
