@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 /// <summary>
 /// This is a modified version of 'SpawnCampGames' car contoller.
@@ -9,7 +10,8 @@ using UnityEngine;
 public class CarController : MonoBehaviour
 {
     [Header("Rigid Body")]
-    [SerializeField] private Rigidbody carSphereRb;
+    [SerializeField] private Rigidbody motorSphereRb;
+    [SerializeField] private Rigidbody carRb;
     [Header("Speed Properties")]
     [SerializeField] private float forwardSpeed = 200f;
     [SerializeField] private float reverseSpeed = 100f;
@@ -24,26 +26,39 @@ public class CarController : MonoBehaviour
     [Header("Drag Properties")]
     [SerializeField] private float airDrag = 0.1f;
     [SerializeField] private float groundDrag = 4f;
-    
+
+    [SerializeField] private float groundAlignTime = 5;
+    [SerializeField] private CinemachineVirtualCamera _virtualCamera;
     private bool isGrounded; 
     private float moveInput;
     private float turnInput;
     private bool carActive;
-    
     private void Start()
     {
         //Removes sphere from car to stop stupid acceleration
-        carSphereRb.transform.parent = null; 
+        motorSphereRb.transform.parent = null;
+        carRb.transform.parent = null;
+        groundDrag = motorSphereRb.drag;
     }
 
     private void OnEnable()
     {
+        if (FindObjectOfType<EventsManager>() == null)
+        {
+            carActive = true;
+            return;
+        }
+        //if (!EventsManager.Instance.) return;
         EventsManager.Instance.ActivateCar += Activate;
         EventsManager.Instance.DeactivateCar += Deactivate;
 
     }
     private void OnDisable()
     {
+        if (FindObjectOfType<EventsManager>() == null)
+        {
+           return;
+        }
         EventsManager.Instance.ActivateCar -= Activate;
         EventsManager.Instance.DeactivateCar -= Deactivate;
 
@@ -53,15 +68,27 @@ public class CarController : MonoBehaviour
     {
         if (!carActive)
         {
-            transform.position = carSphereRb.transform.position;
+            transform.position = motorSphereRb.transform.position;
             return;
         }
         InputHandler();
         //Keeps the car object to the sphere
-        transform.position = carSphereRb.transform.position;
+        transform.position = motorSphereRb.transform.position;
         TurnHandler();
         GroundCheck();
-        carSphereRb.drag = isGrounded ? groundDrag : airDrag;
+        motorSphereRb.drag = isGrounded ? groundDrag : airDrag;
+        UpdateFOV();
+    }
+ 
+    private void UpdateFOV()
+    {
+        var speed = currentSpeed.Remap(0, forwardSpeed, 37.5f, 80f);
+        _virtualCamera.m_Lens.FieldOfView = speed;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        transform.position = carRb.transform.position;
     }
 
     private void Activate()
@@ -92,7 +119,9 @@ public class CarController : MonoBehaviour
     {
         isGrounded = Physics.Raycast(transform.position, -transform.up, out var hit, 1f, groundLayer);
         //adjust car rotation
-        transform.rotation = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
+        
+        var toRotate = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
+        transform.rotation = Quaternion.Slerp(transform.rotation, toRotate, groundAlignTime * Time.deltaTime);
     }
     private void InputHandler()
     {
@@ -115,12 +144,13 @@ public class CarController : MonoBehaviour
         if (isGrounded && carActive)
         {
             //move the car sphere
-            carSphereRb.AddForce(transform.forward * currentSpeed, ForceMode.Acceleration);
+            motorSphereRb.AddForce(transform.forward * currentSpeed, ForceMode.Acceleration);
         }
         else
         {
             //gravity stuff
-            carSphereRb.AddForce(new Vector3(0, transform.position.y, 0) * -10f);
+            motorSphereRb.AddForce(new Vector3(0, transform.position.y, 0) * -10f);
         }
+        carRb.MoveRotation(transform.rotation);
     }
 }

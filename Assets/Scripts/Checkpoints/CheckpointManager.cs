@@ -23,19 +23,17 @@ public class CheckpointManager : MonoBehaviour
 
     private void Update()
     {
-        if (timerOn)
+        if (!timerOn) return;
+        if (timeRemaining > 0 && !gameWon)
         {
-            if (timeRemaining > 0 && !gameWon)
-            {
-                timeRemaining -= Time.deltaTime;
-            }
-            else
-            {
-                timeRemaining = 0;
-                timerOn = false;
-                EventsManager.Instance.OnDeactivateCar();
-                EventsManager.Instance.OnEndGame();
-            }
+            timeRemaining -= Time.deltaTime;
+        }
+        else
+        {
+            timeRemaining = 0;
+            timerOn = false;
+            EventsManager.Instance.OnDeactivateCar();
+            EventsManager.Instance.OnEndGame();
         }
     }
     

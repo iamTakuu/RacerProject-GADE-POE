@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd5ef7b7-f6d0-4556-af46-951144b356c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CustomExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CustomExtensions.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RacerProject-GADE-POE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RacerProject-GADE-POE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Dialogue Panel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Dialogue Panel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Player Car.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Player Car.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Player With Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Player With Camera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CheckPoint Race.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CheckPoint Race.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Beginner Dialogue.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Beginner Dialogue.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckpointStack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckpointStack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckpointManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckpointManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Azerilo/HQ Racing Car Model No.1203/Materials/details mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Azerilo/HQ Racing Car Model No.1203/Materials/details mat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Azerilo/HQ Racing Car Model No.1203/Prefabs/car 1203 yellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Azerilo/HQ Racing Car Model No.1203/Prefabs/car 1203 yellow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Road Assets/BrokenVector/LowPolyRoadPack/Demo/Materials/Grass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Road Assets/BrokenVector/LowPolyRoadPack/Demo/Materials/Grass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Road Assets/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Road Assets/BrokenVector/LowPolyRoadPack/Materials/Car Colorscheme 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,17 +32,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AiRacerFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/EasyRacer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/MediumRacer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Car/WheelController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckPointInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckpointManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckpointStack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenericFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WayPointManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Waypoints/CustomLinkedList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.8.9/Runtime/PostProcessing/CinemachinePostProcessing.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/01/c4b9343e/ReflectionProbe.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/4a31731933e0419ca5a995305014ad37157a00/4e/d942fd9b/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/JetBrains/Shared/vAny/DecompilerCache/decompiler/805c72fd999f42f1a9f6a648bd2c45863a00/61/5041db43/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Documents/CodeDump/LinkedList-Practical/LinkedList-Practical/Linked List/LinkedList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Documents/CodeDump/LinkedList-Practical/LinkedList-Practical/Linked List/Node.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +69,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;rider.run.widget.enabled.cache&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -65,10 +92,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3472">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="3472" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -90,6 +117,14 @@
       <workItem from="1662981666677" duration="5422000" />
       <workItem from="1663098080831" duration="9762000" />
       <workItem from="1663244641037" duration="33964000" />
+      <workItem from="1663595113317" duration="798000" />
+      <workItem from="1663619036126" duration="3757000" />
+      <workItem from="1664179616039" duration="1373000" />
+      <workItem from="1664272963725" duration="1978000" />
+      <workItem from="1664891505751" duration="12169000" />
+      <workItem from="1665057823087" duration="10105000" />
+      <workItem from="1665090984999" duration="1490000" />
+      <workItem from="1665138468796" duration="17738000" />
     </task>
     <servers />
   </component>

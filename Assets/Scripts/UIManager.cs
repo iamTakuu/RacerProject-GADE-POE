@@ -107,7 +107,10 @@ public class UIManager : MonoBehaviour
         for (var i = 0; i < countDown.transform.childCount; i++)
         {
             countDown.transform.GetChild(i).gameObject.SetActive(true);
-            countDown.transform.GetChild(i).DOScale(new Vector3(3, 3), 0.5f).OnComplete((() => countDown.transform.GetChild(i).gameObject.SetActive(false)));
+            countDown.transform.GetChild(i).DOScale(new Vector3(3, 3), 0.5f).OnComplete((() =>
+            {
+                countDown.transform.GetChild(i).gameObject.SetActive(false);
+            }));
             yield return new WaitForSeconds(0.5f); 
         }
 
