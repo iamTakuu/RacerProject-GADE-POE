@@ -5,14 +5,14 @@ using UnityEngine;
 
 public class EasyRacer : AiRacerBase
 {
-    public override void SetStats()
+    protected override void SetStats()
     {
-        NavMeshAgent.speed = 100f;
-        NavMeshAgent.angularSpeed = 150f;
+        NavMeshAgent.speed = 118f;
+        NavMeshAgent.angularSpeed = 180f;
         NavMeshAgent.acceleration = 20f;
     }
 
-    public override void UpdateAcceleration()
+    protected override void UpdateAcceleration()
     {
         NavMeshAgent.acceleration = 130f;
     }

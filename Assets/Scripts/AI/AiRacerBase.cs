@@ -44,9 +44,9 @@ public abstract class AiRacerBase : MonoBehaviour
     /// Set the Speed, Angular Speed and Acceleration.
     /// </summary>
     /// <param name="speed"></param>
-    public abstract void SetStats();
+    protected abstract void SetStats();
 
-    public abstract void UpdateAcceleration();
+    protected abstract void UpdateAcceleration();
 
     private IEnumerator StartSpeedUp(float delay)
     {

@@ -27,7 +27,6 @@ public class CarController : MonoBehaviour
     [SerializeField] private float airDrag = 0.1f;
     [SerializeField] private float groundDrag = 4f;
 
-    [SerializeField] private float groundAlignTime = 5;
     [SerializeField] private CinemachineVirtualCamera _virtualCamera;
     private bool isGrounded; 
     private float moveInput;
@@ -82,7 +81,7 @@ public class CarController : MonoBehaviour
  
     private void UpdateFOV()
     {
-        var speed = currentSpeed.Remap(0, forwardSpeed, 37.5f, 80f);
+        var speed = currentSpeed.Remap(0, forwardSpeed, 25f, 60f);
         _virtualCamera.m_Lens.FieldOfView = speed;
     }
 
@@ -120,8 +119,8 @@ public class CarController : MonoBehaviour
         isGrounded = Physics.Raycast(transform.position, -transform.up, out var hit, 1f, groundLayer);
         //adjust car rotation
         
-        var toRotate = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
-        transform.rotation = Quaternion.Slerp(transform.rotation, toRotate, groundAlignTime * Time.deltaTime);
+        transform.rotation = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
+        
     }
     private void InputHandler()
     {
