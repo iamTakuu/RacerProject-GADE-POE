@@ -3,100 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="bd5ef7b7-f6d0-4556-af46-951144b356c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RacerProject-GADE-POE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RacerProject-GADE-POE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems/Materials/Sphere_Material.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems/Materials/Sphere_Material.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems/Meshes/Sphere.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems/Meshes/Sphere.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems/Prefabs/TireSmoke_PS.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Particle Systems/Prefabs/TireSmoke_PS.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Trails.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Trails/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Trails/Prefabs/TireSkid.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Effects/Trails/Prefabs/TireSkid.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Fonts/Licence.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Fonts/Licence.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Fonts/Teko-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Fonts/Teko-Bold.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Materials/PCC_Col_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Materials/PCC_Col_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Materials/PCC_Light_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Materials/PCC_Light_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Materials/PCC_ParkingZone_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Materials/PCC_ParkingZone_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Materials/Walls.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Materials/Walls.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Meshes/Parking_Zone.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Meshes/Parking_Zone.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Meshes/Prometheus - Collider.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Meshes/Prometheus - Collider.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Meshes/Prometheus.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Meshes/Prometheus.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/More Cars.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/More Cars.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Prefabs/Button Template.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Prefabs/Button Template.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Prefabs/Prometheus.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Prefabs/Prometheus.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scenes/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scenes/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scenes/Mobile Devices Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scenes/Mobile Devices Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scenes/More Cars.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scenes/More Cars.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scripts/CameraFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scripts/CameraFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scripts/PrometeoCarController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scripts/PrometeoCarController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scripts/PrometeoTouchInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Scripts/PrometeoTouchInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Sounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Sounds/CarEngine.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Sounds/CarEngine.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Sounds/TireScreech.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Sounds/TireScreech.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Textures/Mobile Devices.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Textures/Mobile Devices/Button_Blank_Tex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Textures/Mobile Devices/Button_Blank_Tex.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Textures/Mobile Devices/Button_Tex.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Textures/Mobile Devices/Button_Tex.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Textures/PCC_TextureAtlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PROMETEO - Car Controller/Textures/PCC_TextureAtlas.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Prometheus - Easy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Prometheus - Easy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Stang - Medium.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Stang - Medium.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CheckPoint Race.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CheckPoint Race.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Beginner Race.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Beginner Race/Beginner Dialogue.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Beginner Race/Beginner Dialogue.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Beginner Race/Beginner Dialogue.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Beginner Race/Beginner Dialogue/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Beginner Race/Beginner Dialogue/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Car Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Car Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/350-Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/350-Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Corv-Hard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Corv-Hard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Eclipse-Hard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Eclipse-Hard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Golf-Easy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Golf-Easy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Mitsu-Easy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Mitsu-Easy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Prometheus - Easy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Prometheus - Easy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Ronnie-Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Ronnie-Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Stang - Medium.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Stang - Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beginner Race/Beginner Race.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beginner Race/Beginner Race.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/AiRacerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/AiRacerBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/AiRacerFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/AiRacerFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/EasyRacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/EasyRacer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/MediumRacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/MediumRacer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenericFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GenericFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Azerilo/Demo Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Azerilo/HQ Racing Car Model No.1203/Materials/BodyMat yellow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Azerilo/HQ Racing Car Model No.1203/Materials/BodyMat yellow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdparty/Azerilo/HQ Racing Car Model No.1203/Materials/details mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdparty/Azerilo/HQ Racing Car Model No.1203/Materials/details mat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenericFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenericFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPointManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPointManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints/CustomLinkedList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints/CustomLinkedList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints/Node.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints/Node.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,11 +50,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckpointManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckpointStack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GenericFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ITrackable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WayPointManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Waypoints/CustomLinkedList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.siccity.gltfutility@ac70aeb919/GLTFUtility.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.siccity.gltfutility@ac70aeb919/Scripts/Editor/GLTFImporter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.8.9/Runtime/PostProcessing/CinemachinePostProcessing.cs" root0="SKIP_HIGHLIGHTING" />
@@ -203,6 +138,10 @@
       <workItem from="1665241733236" duration="3069000" />
       <workItem from="1665302661375" duration="17785000" />
       <workItem from="1665739210478" duration="692000" />
+      <workItem from="1665825670773" duration="316000" />
+      <workItem from="1665826511899" duration="13680000" />
+      <workItem from="1665930039281" duration="6179000" />
+      <workItem from="1665936333764" duration="3617000" />
     </task>
     <servers />
   </component>

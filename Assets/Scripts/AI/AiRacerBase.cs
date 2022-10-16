@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public abstract class AiRacerBase : MonoBehaviour
+public abstract class AiRacerBase : MonoBehaviour, ITrackable
 {
      protected NavMeshAgent NavMeshAgent;
      private Transform targetPos;
@@ -18,9 +18,21 @@ public abstract class AiRacerBase : MonoBehaviour
         _wayPointManager = FindObjectOfType<WayPointManager>();
         _maxPoints = _wayPointManager.CountWayPoint();
         _pointIndex = 0;
+        RacerName = name.Replace("(Clone)","");
     }
 
-    private void Start()
+    private void OnEnable()
+    {
+        EventsManager.Instance.ActivateCar += ActivateRacer;
+    }
+
+    private void OnDisable()
+    {
+        EventsManager.Instance.ActivateCar -= ActivateRacer;
+    }
+     //private void Start() => InvokeRepeating(nameof(GetWaypointDistance), 1f, 0.2f);
+
+     private void ActivateRacer()
     {
         StartCoroutine(StartSpeedUp(accelerationDelay));
         NavMeshAgent.SetDestination(_wayPointManager.GetFirstWayPoint().position);
@@ -29,10 +41,14 @@ public abstract class AiRacerBase : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag != "Waypoint") return;
+        WaypointsCompleted++;
         NavMeshAgent.SetDestination(_wayPointManager.GetNextWaypoint(_pointIndex).position);
+        GetWaypointDistance();
         if (_pointIndex == _maxPoints - 1)
         {
             _pointIndex = 0;
+            LapCount++;
+            //Debug.Log($"{name} has completed Lap {LapCount}");
         }
         else
         {
@@ -54,4 +70,14 @@ public abstract class AiRacerBase : MonoBehaviour
         yield return new WaitForSeconds(delay);
         UpdateAcceleration();
     }
+
+    public int WaypointsCompleted { get; set; }
+    public int LapCount { get; set; }
+    public float DistanceToNextPoint { get; set; }
+    public void GetWaypointDistance()
+    {
+        DistanceToNextPoint = NavMeshAgent.remainingDistance;
+    }
+
+    public string RacerName { get; set; }
 }

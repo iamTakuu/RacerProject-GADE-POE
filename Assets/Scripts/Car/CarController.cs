@@ -47,7 +47,6 @@ public class CarController : MonoBehaviour
             carActive = true;
             return;
         }
-        //if (!EventsManager.Instance.) return;
         EventsManager.Instance.ActivateCar += Activate;
         EventsManager.Instance.DeactivateCar += Deactivate;
 

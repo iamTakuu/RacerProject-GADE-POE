@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
+using Cinemachine;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -8,15 +10,21 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject countDown;
-    [SerializeField] private CheckpointManager _manager;
+    [OptionalField][SerializeField] private CheckpointManager _manager;
 
-    [Header("Checkpoint UI")] 
+    [Header("Checkpoint UI")] [OptionalField]
     [SerializeField] private TMP_Text timeText;
     [SerializeField] private TMP_Text bonusTime;
     [SerializeField] private TMP_Text endText;
 
+    [Header("Cameras")] 
+    [SerializeField] private List<CinemachineVirtualCamera> virtualCameras;
+
+    private int cameraIndex;
+
     private Vector3 bonusOgVector3;
     private bool timerActive;
+    private bool isRace;
     
     private void Update()
     {
@@ -27,6 +35,10 @@ public class UIManager : MonoBehaviour
     }
     private void OnEnable()
     {
+        if (FindObjectOfType<RaceManager>() != null)
+        {
+            isRace = true;
+        }
         EventsManager.Instance.StartGame += StartCountDown;
         EventsManager.Instance.EndGame += GameOver;
         EventsManager.Instance.AddTime += AddTime;
@@ -41,12 +53,17 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        bonusOgVector3 = bonusTime.transform.position;
+        if (!isRace)
+        {
+            bonusOgVector3 = bonusTime.transform.position;
+        }
     }
 
     private void StartCountDown()
     {
-        StartCoroutine(CountDown());
+        StartCoroutine(isRace ?
+            RaceCountDown() :
+            CountDown());
     }
 
     private void AddTime()
@@ -111,11 +128,41 @@ public class UIManager : MonoBehaviour
             {
                 countDown.transform.GetChild(i).gameObject.SetActive(false);
             }));
-            yield return new WaitForSeconds(0.5f); 
+            yield return new WaitForSeconds(0.5f);
         }
-
         timerActive = true;
         EventsManager.Instance.OnActivateCar();
         timeText.gameObject.SetActive(true);
+    }
+
+    private IEnumerator RaceCountDown()
+    {
+        cameraIndex = 1;
+        for (var i = 0; i < countDown.transform.childCount; i++)
+        {
+            countDown.transform.GetChild(i).gameObject.SetActive(true);
+            countDown.transform.GetChild(i).DOScale(new Vector3(3, 3), 0.5f).OnComplete((() =>
+            {
+                countDown.transform.GetChild(i).gameObject.SetActive(false);
+                if (i != 3) return;
+                EventsManager.Instance.OnActivateCar();
+            }));
+            if (cameraIndex < 4)
+            {
+                virtualCameras[cameraIndex++].gameObject.SetActive(true);
+            }
+
+            //SwitchCam();
+            yield return new WaitForSeconds(2f);
+        }
+        
+    }
+
+    private void SwitchCam()
+    {
+        // //Disable Current Camera
+        virtualCameras[cameraIndex].gameObject.SetActive(false);
+        //Enable Next Camera
+        virtualCameras[++cameraIndex].gameObject.SetActive(true);
     }
 }

@@ -15,7 +15,7 @@ public class WayPointManager : MonoBehaviour
             wayPointsList.InsertAtTail(transform.GetChild(i));
         }
 
-        Debug.Log(wayPointsList.Display);
+        //Debug.Log(wayPointsList.Display);
     }
 
     public int CountWayPoint()
