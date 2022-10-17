@@ -4017,7 +4017,7 @@ NavMeshAgent:
   m_Radius: 2.5
   m_Speed: 3.5
   m_Acceleration: 8
-  avoidancePriority: 47
+  avoidancePriority: 62
   m_AngularSpeed: 120
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
@@ -4041,6 +4041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pointIndex: 0
   accelerationDelay: 4
+  positionText: {fileID: 7667108713822355461}
 --- !u!1001 &308508211728010425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4143,3 +4144,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5693663386114504729, guid: 66d55a65f427eaf438d91b5cbde60d37, type: 3}
   m_PrefabInstance: {fileID: 308508211728010425}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7667108713822355461 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7939565034491464892, guid: 66d55a65f427eaf438d91b5cbde60d37, type: 3}
+  m_PrefabInstance: {fileID: 308508211728010425}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -9,4 +9,5 @@ public interface ITrackable
     float DistanceToNextPoint { get; set; }
     void GetWaypointDistance();
     string RacerName { get; set; }
+    int Position { get; set; }
 }

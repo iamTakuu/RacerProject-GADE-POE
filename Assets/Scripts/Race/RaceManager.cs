@@ -7,15 +7,13 @@ using UnityEngine;
 public class RaceManager : MonoBehaviour
 {
     private List<ITrackable> trackableRacers;
-    
     private void Start()
     {
         trackableRacers = new List<ITrackable>();
         trackableRacers = FindObjectsOfType<MonoBehaviour>().OfType<ITrackable>().ToList();
-        
-        InvokeRepeating(nameof(SortRacers), 5f, 1.5f);
+        NameSort();
+        InvokeRepeating(nameof(SortRacers), 3f, 0.2f);
     }
-
     private void SortRacers()
     {
         IEnumerable<ITrackable> orderedRacers = trackableRacers
@@ -26,9 +24,20 @@ public class RaceManager : MonoBehaviour
         var index = 1;
         foreach (var racer in orderedRacers)
         {
-            Debug.Log($"Position {index}: {racer.RacerName}");
+            racer.Position = index;
             index++;
         }
+    }
+    private void NameSort()
+    {
+        IEnumerable<ITrackable> orderedRacers = trackableRacers
+            .OrderByDescending(racer => racer.RacerName);
 
+        var index = 1;
+        foreach (var racer in orderedRacers)
+        {
+            racer.Position = index;
+            index++;
+        }
     }
 }

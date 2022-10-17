@@ -3,37 +3,73 @@
   <component name="ChangeListManager">
     <list default="true" id="bd5ef7b7-f6d0-4556-af46-951144b356c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RacerProject-GADE-POE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RacerProject-GADE-POE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/350-Medium.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/350-Medium.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Corv-Hard.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Corv-Hard.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Eclipse-Hard.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Eclipse-Hard.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Golf-Easy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Golf-Easy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Mitsu-Easy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Mitsu-Easy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Prometheus - Easy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Prometheus - Easy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Ronnie-Medium.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Ronnie-Medium.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Stang - Medium.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Stang - Medium.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Characters/Developer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Characters/Developer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Characters/Player.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/Characters/Player.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/CheckPoint.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/CheckPoint.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P11.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P11.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P12.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P12.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P13.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P13.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P14.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P14.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P15.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P15.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/CheckPoint Race/P9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/CheckerFlag.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/CheckerFlag.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/350.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/350.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Corv.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Corv.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Eclipse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Eclipse.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Golf.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Golf.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Mitsu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Mitsu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Prometheus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Prometheus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Ronnie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Ronnie.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Stang.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/Ai Racers/Stang.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Checkpoint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/Checkpoint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefbas/UI/Position Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefbas/UI/Position Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Beginner Race/Beginner Race.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Beginner Race/Beginner Race.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Car Test_Profiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Car Test_Profiles/Main Camera Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Car Test_Profiles/Main Camera Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CheckPoint Race.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CheckPoint Race.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Advanced Dialogue.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Advanced Dialogue.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Car Test.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Later Scenes/Car Test.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/AiRacerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/AiRacerBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Car/CarController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenericFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GenericFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPoint.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPointManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WayPointManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints/CustomLinkedList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints/CustomLinkedList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints/Node.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Waypoints/Node.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ITrackable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ITrackable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Race/RaceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Race/RaceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +77,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AiRacerFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/EasyRacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/HardRacer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,7 +91,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoints/CheckpointStack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ITrackable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity-Projects/RacerProject-GADE-POE/Assets/Scripts/Spectator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity-Projects/RacerProject-GADE-POE/Assets/Scripts/Spectator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity-Projects/RacerProject-GADE-POE/Assets/Scripts/Spectator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/State Machine/SpectatorSM.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/State Machine/States/HypeState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.siccity.gltfutility@ac70aeb919/GLTFUtility.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.siccity.gltfutility@ac70aeb919/Scripts/Editor/GLTFImporter.cs" root0="SKIP_HIGHLIGHTING" />
@@ -84,6 +128,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/TestBuild\RacerProject-GADE-POE.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Unity-Projects\RacerProject-GADE-POE\TestBuild" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Unity-Projects\RacerProject-GADE-POE -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -102,10 +154,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7992">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="7992" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -141,7 +193,8 @@
       <workItem from="1665825670773" duration="316000" />
       <workItem from="1665826511899" duration="13680000" />
       <workItem from="1665930039281" duration="6179000" />
-      <workItem from="1665936333764" duration="3617000" />
+      <workItem from="1665936333764" duration="8278000" />
+      <workItem from="1666014757267" duration="11202000" />
     </task>
     <servers />
   </component>
@@ -152,5 +205,12 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Spectator" memberName="_stateMachine" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
