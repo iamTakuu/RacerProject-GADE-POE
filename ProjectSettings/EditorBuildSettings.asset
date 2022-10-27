@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CheckPoint Race/CheckPoint Race.unity
     guid: 8660066df149c5f4ea46fec16712f27e
   - enabled: 1

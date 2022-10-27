@@ -96,6 +96,4 @@ public abstract class AiRacerBase : MonoBehaviour, ITrackable
     {
         DistanceToNextPoint = NavMeshAgent.remainingDistance;
     }
-
-    
 }
