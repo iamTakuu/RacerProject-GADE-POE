@@ -49,7 +49,7 @@ public abstract class AiRacerBase : MonoBehaviour, ITrackable
      }
      private void OnTriggerEnter(Collider other)
      {
-         if (other.tag != "Waypoint") return;
+         if (!other.CompareTag("Waypoint")) return;
          WaypointsCompleted++;
          NavMeshAgent.SetDestination(_wayPointManager.GetNextWaypoint(_pointIndex).position);
          GetWaypointDistance();

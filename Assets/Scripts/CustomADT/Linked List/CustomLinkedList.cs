@@ -2,10 +2,8 @@ using UnityEngine;
 
 public class CustomLinkedList<T>
 {
-  
         public Node<T> Head { get; private set; }
-
-        public string Display => Head.ToString(); 
+        public int Count => GetCount();
         
        //Linked list with initialised head
        public CustomLinkedList(T data)
@@ -73,6 +71,38 @@ public class CustomLinkedList<T>
        public T ReturnHead()
        {
            return Head.Data;
+       }
+       public bool Exists(T data)
+       {
+           var current = Head;
+           while (current != null)
+           {
+               if (current.Data.Equals(data))
+               {
+                   return true;
+               }
+               current = current.Next;
+           }
+           return false;
+       }
+       /// <summary>
+       /// GetCount the number of nodes in the list
+       /// </summary>
+       /// <returns></returns>
+       private int GetCount()
+       {
+           if (Head == null)
+           {
+               return 0;
+           }
+           var current = Head;
+           int count = 1;
+           while (current.Next != null)
+           {
+               current = current.Next;
+               count++;
+           }
+           return count;
        }
        
        #region UNUSED METHODS

@@ -20,6 +20,7 @@ public class BMGManager : MonoBehaviour
 
     private void Awake()
     {
+        DontDestroyOnLoad(this.gameObject);
         _source1.clip = _musicSo.GetSong(0);
         _source1.volume = 0f;
         _source1.Play();

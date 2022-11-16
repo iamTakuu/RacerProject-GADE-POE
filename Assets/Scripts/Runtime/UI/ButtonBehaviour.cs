@@ -1,26 +1,20 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class ButtonBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
     {
-        [SerializeField] private float scaleMultiplier = 1.1f;
+        [SerializeField][Tooltip("How much the button should scale by.")] private float scaleMultiplier = 1.1f;
         private Vector3 defaultScale;
-        [SerializeField]private SoundEffectsHandler sfxHandler;
 
         private void Start()
         {
             defaultScale = transform.localScale;
-            //sfxHandler = FindObjectOfType<SoundEffectsHandler>();
         }
 
         public void OnPointerEnter(PointerEventData eventData)
         {
             transform.localScale *= scaleMultiplier;
-            sfxHandler.PlayEffect("Hover");
+            SoundEffectsHandler.Instance.PlayEffect("UI-Hover");
         }
 
         public void OnPointerExit(PointerEventData eventData)
@@ -31,6 +25,6 @@ public class ButtonBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExit
         public void OnPointerClick(PointerEventData eventData)
         {
             transform.localScale = defaultScale;
-            sfxHandler.PlayEffect("Click");
+            SoundEffectsHandler.Instance.PlayEffect("UI-Select");
         }
     }

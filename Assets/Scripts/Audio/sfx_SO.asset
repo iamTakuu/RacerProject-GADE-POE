@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: sfx_SO
   m_EditorClassIdentifier: 
   AudioLibrary:
-    list:
-    - key: Hover
-      value: {fileID: 8300000, guid: c9d9c90fed2f61f4baca0c317307fc2d, type: 3}
-    - key: Click
-      value: {fileID: 8300000, guid: bd866790ab03c144899dab446bb74253, type: 3}
+  - {fileID: 8300000, guid: c9d9c90fed2f61f4baca0c317307fc2d, type: 3}
+  - {fileID: 8300000, guid: bd866790ab03c144899dab446bb74253, type: 3}
+  - {fileID: 8300000, guid: cd793254d23190942bc062ffa9cd3471, type: 3}
+  - {fileID: 8300000, guid: b97323921149c81429def7ade31ee07c, type: 3}
+  - {fileID: 8300000, guid: 14422986d1c0e65498d329af4ed9c832, type: 3}
+  - {fileID: 8300000, guid: 87999369b59078945b64fb3b05981d5e, type: 3}
+  - {fileID: 8300000, guid: 23b51610bd5185a4994c509c55868085, type: 3}

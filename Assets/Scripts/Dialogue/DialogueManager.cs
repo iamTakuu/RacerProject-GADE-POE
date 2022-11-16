@@ -63,6 +63,7 @@ public class DialogueManager : MonoBehaviour
     public void NextDialogue()
     {
         nextInput = true;
+        SoundEffectsHandler.Instance.PlayEffect("UI-Click");
     }
     private void EndDialogue()
     {

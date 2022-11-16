@@ -28,6 +28,7 @@ public class CarController : MonoBehaviour
     [SerializeField] private float groundDrag = 4f;
 
     [SerializeField] private CinemachineVirtualCamera _virtualCamera;
+    [SerializeField] private float maxFov = 60f;
     private bool isGrounded; 
     private float moveInput;
     private float turnInput;
@@ -80,7 +81,7 @@ public class CarController : MonoBehaviour
  
     private void UpdateFOV()
     {
-        var speed = currentSpeed.Remap(0, forwardSpeed, 25f, 60f);
+        var speed = currentSpeed.Remap(0, forwardSpeed, 25f, maxFov);
         _virtualCamera.m_Lens.FieldOfView = speed;
     }
 

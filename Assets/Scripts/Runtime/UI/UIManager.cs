@@ -121,6 +121,7 @@ public class UIManager : MonoBehaviour
     
     private IEnumerator CountDown()
     {
+        int cd = 3;
         for (var i = 0; i < countDown.transform.childCount; i++)
         {
             countDown.transform.GetChild(i).gameObject.SetActive(true);
@@ -128,6 +129,7 @@ public class UIManager : MonoBehaviour
             {
                 countDown.transform.GetChild(i).gameObject.SetActive(false);
             }));
+            SoundEffectsHandler.Instance.PlayEffect($"CD-{cd--}");
             yield return new WaitForSeconds(0.5f);
         }
         timerActive = true;
@@ -137,6 +139,7 @@ public class UIManager : MonoBehaviour
 
     private IEnumerator RaceCountDown()
     {
+        int cd = 3;
         cameraIndex = 1;
         for (var i = 0; i < countDown.transform.childCount; i++)
         {
@@ -146,23 +149,17 @@ public class UIManager : MonoBehaviour
                 countDown.transform.GetChild(i).gameObject.SetActive(false);
                 if (i != 3) return;
                 EventsManager.Instance.OnActivateCar();
+                SoundEffectsHandler.Instance.PlayEffect($"CD-{cd--}");
             }));
             if (cameraIndex < 4)
             {
                 virtualCameras[cameraIndex++].gameObject.SetActive(true);
+                SoundEffectsHandler.Instance.PlayEffect($"CD-{cd--}");
             }
 
             //SwitchCam();
             yield return new WaitForSeconds(2f);
         }
         
-    }
-
-    private void SwitchCam()
-    {
-        // //Disable Current Camera
-        virtualCameras[cameraIndex].gameObject.SetActive(false);
-        //Enable Next Camera
-        virtualCameras[++cameraIndex].gameObject.SetActive(true);
     }
 }
